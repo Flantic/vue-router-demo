@@ -11,7 +11,7 @@ const UserChild = resolve => require(['@/components/UserChild'], resolve)
 Vue.use(Router)
 
 export default new Router({
-    mode: 'history',
+    // mode: 'history',
     routes: [{
         path: '/',
         name: 'Hello',
